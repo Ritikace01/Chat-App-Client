@@ -1,0 +1,56 @@
+.chat-body {
+    border: solid;
+    border-width: 1px;
+    border-color: thistle;
+    border-radius: 10px;
+    width: 580px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #F3E2D9;
+    display: grid;
+    grid-template-rows: 18% 65% 10%;
+}
+
+.chat-navbar {
+    border: tomato;
+    border-radius: 10px;
+    height: 9vh;
+    background-image: linear-gradient(-60deg, #EECDA3, #EF629F);
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.room-name {
+    color: white;
+    padding: 19px;
+    padding-left: 0px;
+    font-size: 20px;
+    font-family: 'Limelight', cursive;
+}
+
+.close-icon {
+    color: white;
+    font-size: large;
+    text-align: left;
+}
+
+.chat-input {
+    height: 6vh;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    position: relative;
+    top: 75.8%;
+}
+
+.send-btn {
+    border: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-size: 16px;
+}

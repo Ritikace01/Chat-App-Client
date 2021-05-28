@@ -1,0 +1,38 @@
+.body {
+    border: solid;
+    border-width: 1px;
+    border-color: thistle;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #F3E2D9;
+}
+
+.form {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.input {
+    border-radius: 8px;
+    width: 20vw;
+    height: 4vh;
+    border: grey;
+    margin-top: 10px;
+}
+
+.button {
+    width: 8vw;
+    height: 7vh;
+    border: grey;
+    border-radius: 15px;
+    background: gainsboro;
+    position: absolute;
+    bottom: 15%;
+    left: 36%;
+}
